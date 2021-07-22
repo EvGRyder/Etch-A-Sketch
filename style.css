@@ -5,14 +5,22 @@
     align-items: center;
 }
 
-#canvas { 
+#listSelect {
     width: 360px;
-    height: 360px;
+    margin: auto;
+    padding: 15PX;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.canvas { 
+    width: 600px;
+    height: 600px;
     display: flex;
     flex-direction: column;
 }
 
-#canvas > div {
+.canvas > div {
     flex-grow: 1;
 }
 
